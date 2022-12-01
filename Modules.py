@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-TD4 - TANG Nathalie
-Classes : Author, Corpus
+Fichier composé des classes : Author et Corpus
 """
 
+#Création de la classe Author
 class Author:
     def __init__(self, name):
         self.name = name
@@ -17,6 +17,7 @@ class Author:
     def __str__(self):
         return f"Auteur : {self.name}\t# productions : {self.ndoc}"
 
+#Création de la classe Corpus
 class Corpus:
     def __init__(self, nom):
         self.nom = nom
